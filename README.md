@@ -1,5 +1,7 @@
 # S&P 500 Relative Returns Data Pipeline
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17971090.svg)](https://doi.org/10.5281/zenodo.17971090)
+
 Data pipeline for replicating the S&P 500 stock forecasting methodology from:
 
 > Htun, H. H., Biehl, M., & Petkov, N. (2024). Forecasting relative returns for S&P 500 stocks using machine learning. Financial Innovation, 10, 118.  
