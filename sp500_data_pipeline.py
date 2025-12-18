@@ -8,8 +8,7 @@
 # 
 # **Reference**
 # 
-# Htun, H. H., Biehl, M., & Petkov, N. (2024). *Forecasting relative returns for S&P 500 stocks using machine learning.*  
-# **Financial Innovation, 10**, 118.  
+# Htun, H. H., Biehl, M., & Petkov, N. (2024). Forecasting relative returns for S&P 500 stocks using machine learning. Financial Innovation, 10, 118.  
 # [PDF link](https://link.springer.com/content/pdf/10.1186/s40854-024-00644-0.pdf)  
 # 
 # ---
