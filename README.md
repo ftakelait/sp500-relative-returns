@@ -128,6 +128,7 @@ If you use this code, please cite both the original paper and this implementatio
     title = {{S\&P} 500 Relative Returns Data Pipeline},
     author = {Takelait, Fouzi},
     year = {2025},
+    doi = {10.5281/zenodo.17971090},
     url = {https://github.com/ftakelait/sp500-relative-returns},
     version = {1.0.0},
 }
