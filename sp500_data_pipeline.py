@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ## S&P 500 by date
 # 
 # Get snapshot of S&P 500 components at a given date; `2022-01-01`.
 # 
