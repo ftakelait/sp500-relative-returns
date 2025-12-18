@@ -1,0 +1,18 @@
+======================================================================
+TABLE 1: Examples of stocks in different sectors of the S&P 500 index
+======================================================================
+
+                    Sector                   Companies (symbol)  n_companies
+0               Technology      AAPL, ACN, ADBE, ADI, ADSK, ...           79
+1       Financial Services         AFL, AIG, AIZ, AJG, ALL, ...           71
+2              Industrials        AAL, ADP, ALK, ALLE, AME, ...           71
+3               Healthcare        A, ABBV, ABMD, ABT, ALGN, ...           65
+4        Consumer Cyclical      AAP, AMCR, AMZN, APTV, AZO, ...           63
+5       Consumer Defensive         ADM, BF-B, CAG, CHD, CL, ...           35
+6              Real Estate        AMT, ARE, AVB, BXP, CBRE, ...           29
+7                Utilities         AEE, AEP, AES, ATO, AWK, ...           28
+8                   Energy        APA, BKR, COP, CTRA, CVX, ...           23
+9          Basic Materials          ALB, APD, CE, CF, CTVA, ...           21
+10  Communication Services  CHTR, CMCSA, DIS, DISCA, DISCK, ...           20
+
+Unique sectors: 11  |  Total companies: 505
