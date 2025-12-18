@@ -1,0 +1,6 @@
+# Requirements for sp500_data_pipeline.py
+# Works on Windows, macOS, and Linux
+
+pandas>=2.0.0
+requests>=2.28.0
+tqdm>=4.60.0
