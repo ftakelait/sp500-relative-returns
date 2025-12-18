@@ -62,7 +62,7 @@ pip install -r requirements.txt
 This script requires a [FinancialModelingPrep (FMP)](https://financialmodelingprep.com/) API key.
 
 1. Sign up at [financialmodelingprep.com](https://site.financialmodelingprep.com/register) to get your free API key
-2. Open `sp500_data_pipeline.py` and replace `ADD_YOUR_FMP_API_KEY` with your actual key:
+2. Open `sp500_data_pipeline.py` [line: 177] and replace `ADD_YOUR_FMP_API_KEY` with your actual key:
 
    ```python
    FMP_KEY = "ADD_YOUR_FMP_API_KEY"
