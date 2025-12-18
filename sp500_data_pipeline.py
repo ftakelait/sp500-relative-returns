@@ -173,10 +173,8 @@ print(f"Unique normalized tickers after aliasing: {len(fmp_tickers_snapshot_uniq
 print(fmp_tickers_snapshot_unique[:10], "...")
 
 
-# Load API key from environment variable
-FMP_KEY = os.environ.get("FMP_API_KEY")
-if not FMP_KEY:
-    raise ValueError("Missing FMP_API_KEY environment variable. Set it with: export FMP_API_KEY='your_key_here'")
+# Replace with your FMP API key from https://financialmodelingprep.com/
+FMP_KEY = "ADD_YOUR_FMP_API_KEY"
 
 
 def fetch_fmp_sector(symbol: str,

@@ -62,24 +62,10 @@ pip install -r requirements.txt
 This script requires a [FinancialModelingPrep (FMP)](https://financialmodelingprep.com/) API key.
 
 1. Sign up at [financialmodelingprep.com](https://financialmodelingprep.com/) to get your free API key
-2. Set the environment variable before running the script:
-
-**macOS / Linux:**
-```bash
-export FMP_API_KEY="your_api_key_here"
-```
-
-**Windows (Command Prompt):**
-```cmd
-set FMP_API_KEY=your_api_key_here
-```
-
-**Windows (PowerShell):**
-```powershell
-$env:FMP_API_KEY="your_api_key_here"
-```
-
-> **Tip:** Add the export line to your `~/.bashrc` or `~/.zshrc` to make it permanent.
+2. Open `sp500_data_pipeline.py` and replace `ADD_YOUR_FMP_API_KEY` with your actual key:
+   ```python
+   FMP_KEY = "your_actual_api_key_here"
+   ```
 
 ---
 
