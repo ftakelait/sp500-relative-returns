@@ -6,10 +6,10 @@
 # Get snapshot of S&P 500 components at a given date; `2022-01-01`.
 # 
 # 
-# **Reference**
+# Reference:
 # 
 # Htun, H. H., Biehl, M., & Petkov, N. (2024). Forecasting relative returns for S&P 500 stocks using machine learning. Financial Innovation, 10, 118.  
-# [PDF link](https://link.springer.com/content/pdf/10.1186/s40854-024-00644-0.pdf)  
+# PDF link: https://link.springer.com/content/pdf/10.1186/s40854-024-00644-0.pdf
 # 
 # ---
 
@@ -62,7 +62,7 @@ END_DATE   = "2022-01-01"  # paper uses data up to 2022-01-01
 FEATURE_LAGS = [260, 180, 150, 120, 100, 80, 60, 40, 20, 15, 10, 5, 1]
 
 # For labels: horizon and threshold d
-HORIZON_DAYS = 10          # "ten trading days (horizon)" 
+HORIZON_DAYS = 10          # 10 trading days (horizon)
 THRESHOLD_D  = 2.0         # 2% (they work in percent)
 
 
