@@ -5,8 +5,7 @@
 # 
 # Get snapshot of S&P 500 components at a given date; `2022-01-01`.
 # 
-# 
-# Reference:
+# Careful replication of the data pipeline used in the paper:
 # 
 # Htun, H. H., Biehl, M., & Petkov, N. (2024). Forecasting relative returns for S&P 500 stocks using machine learning. Financial Innovation, 10, 118.  
 # PDF link: https://link.springer.com/content/pdf/10.1186/s40854-024-00644-0.pdf
