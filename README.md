@@ -64,7 +64,7 @@ This script requires a [FinancialModelingPrep (FMP)](https://financialmodelingpr
 1. Sign up at [financialmodelingprep.com](https://financialmodelingprep.com/) to get your free API key
 2. Open `sp500_data_pipeline.py` and replace `ADD_YOUR_FMP_API_KEY` with your actual key:
    ```python
-   FMP_KEY = "your_actual_api_key_here"
+   FMP_KEY = "ADD_YOUR_FMP_API_KEY"
    ```
 
 ---
@@ -73,13 +73,8 @@ This script requires a [FinancialModelingPrep (FMP)](https://financialmodelingpr
 
 Make sure you are in the project directory and your environment is activated.
 
-**macOS / Linux:**
+**MacOS / Linux / Windows:**
 ```bash
-python sp500_data_pipeline.py
-```
-
-**Windows:**
-```cmd
 python sp500_data_pipeline.py
 ```
 
@@ -93,17 +88,13 @@ The script creates the following directories and files:
 sp500-relative-returns/
 ├── data/
 │   ├── fmp_stocks/           # Individual CSV files per ticker (494 files)
+│   │   └── Ticker_1.csv
+│   │   └── Ticker_2.csv
+│   │   └── ...
 │   └── sp500_final_494_tickers_fmp.csv
 ├── output/
 │   └── table1_sectors.txt    # Sector summary table
 ```
-
----
-
-## Expected Runtime
-
-- **First run**: ~10-15 minutes (downloading 494 ticker price histories from FMP API)
-- **Subsequent runs**: ~2-3 minutes (cached data is skipped)
 
 ---
 
@@ -113,8 +104,40 @@ sp500-relative-returns/
 - API rate limits may apply depending on your FMP subscription tier
 - If you encounter API errors, wait a few minutes and re-run the script
 
+## Citation
+
+If you use this code, please cite both the original paper and this implementation:
+
+**BibTeX:**
+```bibtex
+@article{htun_forecasting_2024,
+    title = {Forecasting relative returns for {S}\&{P} 500 stocks using machine learning},
+    volume = {10},
+    issn = {2199-4730},
+    doi = {10.1186/s40854-024-00644-0},
+    journal = {Financial Innovation},
+    author = {Htun, Htet Htet and Biehl, Michael and Petkov, Nicolai},
+    year = {2024},
+    pages = {118},
+}
+
+@software{takelait_sp500_pipeline_2025,
+    title = {{S\&P} 500 Relative Returns Data Pipeline},
+    author = {Takelait, Fouzi},
+    year = {2025},
+    url = {https://github.com/ftakelait/sp500-relative-returns},
+    version = {1.0.0},
+}
+```
+
 ---
 
 ## License
 
-MIT License
+MIT License © 2025 Fouzi Takelait
+
+---
+
+## Contact
+
+Fouzi Takelait — [ftakelait@gmail.com](mailto:ftakelait@gmail.com)
