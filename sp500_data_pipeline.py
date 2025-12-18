@@ -173,8 +173,10 @@ print(f"Unique normalized tickers after aliasing: {len(fmp_tickers_snapshot_uniq
 print(fmp_tickers_snapshot_unique[:10], "...")
 
 
-# Put your real API key here (or load it from an environment variable)
-FMP_KEY = "mTaUiQEsDpR2ol3XLglZu1o9vJ4lt7eD"
+# Load API key from environment variable
+FMP_KEY = os.environ.get("FMP_API_KEY")
+if not FMP_KEY:
+    raise ValueError("Missing FMP_API_KEY environment variable. Set it with: export FMP_API_KEY='your_key_here'")
 
 
 def fetch_fmp_sector(symbol: str,
