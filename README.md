@@ -20,7 +20,7 @@ Data pipeline for replicating the S&P 500 stock forecasting methodology from:
 
 - **Python**: 3.10 or higher
 - **OS**: Windows, macOS, or Linux
-- **API Key**: FMP API key (already embedded in script, or replace with your own)
+- **API Key**: FMP API key
 
 ---
 
@@ -88,13 +88,13 @@ The script creates the following directories and files:
 ```
 sp500-relative-returns/
 ├── data/
-│   ├── fmp_stocks/           # Individual CSV files per ticker (494 files)
+│   ├── fmp_stocks/           # [Generated] Individual CSV files per ticker (494 files)
 │   │   └── Ticker_1.csv
 │   │   └── Ticker_2.csv
 │   │   └── ...
-│   └── sp500_final_494_tickers_fmp.csv
+│   └── sp500_final_494_tickers_fmp.csv 
 ├── output/
-│   └── table1_sectors.txt    # Sector summary table
+│   └── table1_sectors.txt    # [Generated] Sector summary table
 ```
 
 ---
